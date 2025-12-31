@@ -1,0 +1,23 @@
+# AWS Configuration
+aws_region  = "eu-central-1"
+environment = "dev"
+
+# Project
+project_name = "species-detection"
+
+# RDS Configuration
+db_instance_class        = "db.t3.micro"
+db_allocated_storage     = 20
+db_max_allocated_storage = 100
+db_name                  = "species_detection"
+db_username              = "species_admin"
+
+# Lambda Configuration
+lambda_timeout = 900  # 15 minutes
+lambda_memory  = 3008 # MB
+
+# S3 Bucket (should match your existing sensor data bucket)
+s3_bucket_name = "your-sensor-data-bucket-name"
+
+# Alerts
+alert_email = "your-email@example.com"

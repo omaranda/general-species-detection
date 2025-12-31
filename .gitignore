@@ -1,0 +1,99 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Next.js
+dashboard/.next/
+dashboard/out/
+dashboard/build/
+dashboard/dist/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+venv/
+ENV/
+env/
+package/
+
+# Terraform
+infrastructure/terraform/.terraform/
+infrastructure/terraform/*.tfstate
+infrastructure/terraform/*.tfstate.*
+infrastructure/terraform/.terraform.lock.hcl
+infrastructure/terraform/terraform.tfvars
+infrastructure/terraform/*_placeholder.zip
+infrastructure/terraform/lambda_placeholder.txt
+
+# ML Models (large files)
+*.pt
+*.pth
+*.h5
+*.pb
+*.onnx
+backend/layers/ml-models/*.pt
+backend/layers/ml-models/*.pth
+backend/layers/ml-models/python/
+
+# Lambda deployment packages
+backend/lambda/**/*.zip
+backend/lambda/**/package/
+backend/layers/**/*.zip
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Test files
+test-images/
+sample-data/
+
+# Secrets
+secrets.json
+credentials.json
+*.pem
+*.key
+
+# Database
+*.sql.gz
+*.dump
+
+# Misc
+.cache/
+.temp/
+tmp/
