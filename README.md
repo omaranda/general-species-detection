@@ -1,4 +1,4 @@
-# Camera Trap Species Detection Platform
+# AI‑Powered Wildlife Monitoring (MegaDetector + SpeciesNet)
 
 [![AWS](https://img.shields.io/badge/AWS-Cloud-orange)](https://aws.amazon.com/)
 [![Next.js](https://img.shields.io/badge/Next.js-16.1.1-black)](https://nextjs.org/)
